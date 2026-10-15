@@ -27,11 +27,6 @@ python lr_experiment.py
 
 LR C=10 验证集 0.9383/0.9384 略优于 SVM linear C=10 的 0.9369/0.9372，且训练快约一个数量级、可输出概率——综合验证性能与模型复杂度选定 LR 为提交模型。
 
-## 输出图表
-
-| 位置 | 内容 |
-| output_svm/figures/ | figS1 清洗消融 · figS2 TF-IDF 网格 · figS3 C 曲线 · figS4 混淆矩阵 · figS5 hinge 损失曲线 |
-| output_lr/figures/  | figL1 清洗消融 · figL2 TF-IDF 网格 · figL3 C 曲线 · figL4 混淆矩阵 · figL5 交叉熵损失曲线 |
 
 ## 可复现性说明
 
